@@ -1,13 +1,80 @@
-.grad {
-    
+.title {
+    font-family: Rubik;
+    font-size: 5em;
+    text-align: center;
+    color: white;
+    text-shadow: 0px 0px 10px #cac0c0;
 }
 
+.btn-primary {
+    background-color: #FFC2D3;
+    font-family: Rubik;
+    border:none !important;
+    outline:none !important;
+    box-shadow: 2px 2px 3px #ce91a9;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+}
+
+.background  {
+    background: #eeb9c72d;
+    filter: blur(2px);
+    margin: auto;
+    margin-top: 1em;
+    width: 12em;
+    height: 12em;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+}
+.text {
+    position: absolute;
+    z-index: 100;
+    
+    margin: auto;
+    text-align: center;
+    align-self: center;
+    width: fit-content;
+    margin-top: 0;
+    font-family: Rubik;
+    color: #476365;
+    display: inline-block;
+}
+.after {
+    margin-top: 50em;
+}
+
+.button:active, 
+ button:active,
+.button:focus, 
+ button:focus,
+.button:hover, 
+ button:hover{
+    border:none !important;
+    outline:none !important;
+    background-color: #eeb9c7 !important;
+
+}
+
+.box {
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20em;
+    width: fit-content;
+}
 body {
     height: 100%;
-    margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(45deg, #FFC2D3, #C2FBFF);
+    background-image: linear-gradient(60deg, #FFC2D3, #C2FBFF);
+    position: relative;
 }
 
 @font-face {
@@ -15,6 +82,3 @@ body {
     src: url("assets/Rubik-VariableFont_wght.ttf");
 }
 
-.rubik {
-    font-family: "Rubik";
-}
