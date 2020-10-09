@@ -1,126 +1,136 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3em;
+}
 #row {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: wrap;
-    
+    align-items: center;
+    width: 100%;
 }
-#column1 {
+#card_row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+#column1_1 {
+    margin: 0 -1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#column1_2 {
     margin: 0 1em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 30%;
-}
-#column2 {
-    margin: 0 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-@media only screen and (max-width: 600px){
-    .row {   
-        flex-direction: column;
-    }
-}
-.logo {
-    margin-top: -20px;
 }
 .title {
     font-family: Rubik;
-    font-size: clamp(100%, 5rem + 2vw, 10vmin);
+    font-size: 5rem;
     color: white;
-    text-shadow: 0px 0px 10px #cac0c0;
+    text-shadow: 0px 0px 0.5rem #8b7e8454;
 }
 .head-img {
     box-shadow: 0px 2px 5px #796a70;
-    border-radius: 20%;
-    max-width: 20vmin;
-    height: auto;
+    border-radius: 2rem;
+    width: 60%;
     opacity: 0.85;
-    /* margin-left: 3vw; */
 }
 .btn-primary {
-    font-size: 1.75vmin;
+    line-height: 2rem;
+    border-radius: 100px;
+    font-size: 1rem;
+    font-family: Rubik;
     background-color: #FFC2D3;
-    font-family: Rubik;
     border:none !important;
     outline:none !important;
-    width: 10vmin;
-    box-shadow: 2px 2px 2px #ce91a9;
-    margin-left: 0.5em;
-    margin-right: 0.5em;
-}
-.buttons {
-    display: flex;
-    align-self: right;
-}
-.background  {
-    background: #eeb9c72d;
-    filter: blur(2px);
-    margin: auto;
-    margin-top: 1em;
-    width: 12em;
-    height: 12em;
-    overflow: hidden;
-    background-size: cover;
-    position: relative;
-}
-.text {
-    position: absolute;
-    z-index: 100;
-    
-    margin: auto;
+    box-shadow: 1px 1px 3px #ce91a9;
     text-align: center;
-    align-self: center;
-    width: fit-content;
-    margin-top: 0;
+    padding: 0 1rem;
+}
+a {
+    text-decoration: none!important;
+    outline: none!important;
+}
+.btn-primary:hover{
+    background-color: #e7b5c3;
+    text-decoration: none!important;
+}
+.btn-primary:focus{
+    background-color: #FFC2D3!important;
+    border: none!important;
+    outline: none!important;
+}
+.buttons a {
+    margin: 0 0.5rem;
+}
+.card-title {
     font-family: Rubik;
-    color: #476365;
-    display: inline-block;
+    color: #dd97ab;
 }
-.after {
-    margin-top: 50em;
+.card_current {
+    margin: 3rem 1rem 2rem !important;
+    width: 25rem !important; 
 }
-
-.button:active, 
- button:active,
-.button:focus, 
- button:focus,
-.button:hover, 
- button:hover{
-    border:none !important;
-    outline:none !important;
-    background-color: #eeb9c7 !important;
-
-}
-
-.box {
-    margin: auto;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-.container {
-    justify-content: center;
+.card {
+    text-align: center;
+    padding: 1rem;
+    margin: 1rem 1rem;
+    display: flex;
+    flex-flow: column;
     align-items: center;
-    margin: auto;
-    margin-top: 30vmin;
-    width: fit-content;
+    width: 20rem;
+    height: fit-content;
+    backdrop-filter: blur(4px); 
+    background-color: rgba(255, 239, 251, 0.384);
+    border-radius: 2rem;
+    border: none;
+    box-shadow: 0px 2px 6px #c7b4bb65;
 }
-body {
+p {
+    text-align: left;
+    font-size: 12px;
+}
+html, body {
     height: 100%;
     width: 100%;
+}
+body {
+    padding-top: 1px;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-image: linear-gradient(50deg, #FFC2D3, #C2FBFF);
-    position: relative;
-}
-
+    background-image: linear-gradient(50deg, #FFC2D3, #c2fbffa1);
+}  
+/* #acb6ff52, #fd98ca62, #ffc87c5b */
 @font-face {
     font-family: "Rubik";
     src: url("assets/Rubik-VariableFont_wght.ttf");
 }
-
+@media only screen and (max-width: 767px) {
+    #card_row {
+        flex-wrap: wrap;
+    }
+    .card_current {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    html, body {
+        height: 100%;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #row {
+        flex-wrap: wrap;
+    }
+}

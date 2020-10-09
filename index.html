@@ -12,26 +12,59 @@
     <body>
         <div class="container">
             <div id="row">
-                <div id="column1">
+                <div id="column1_1">
                     <img class="head-img" src="assets/head.jpg" alt="">
                 </div>
-                <div id="column2">
-                    <div style="display: block;" class="title-container">
+                <div id="column1_2">
+                    <div>
                         <strong class="title">Evan Hu</strong>
                     </div>
-                    <div class="buttons">
-                        <a href="assets/Evan Hu Resume.pdf" target="_blank"><button type="button" class="btn btn-primary">Resume</button></a>
-                        <a href="https://github.com/evanhu1" target="_blank"><button type="button" class="btn btn-primary">GitHub</button></a> 
-                        <a href="https://www.linkedin.com/in/evanhu1/" target="_blank"><button type="button" class="btn btn-primary">LinkedIn</button></a> 
+                    <div class="buttons" style="display: flex;">
+                        <a href="assets/Evan Hu Resume.pdf" target="_blank" class=" btn-primary">Resume</a>
+                        <a href="https://github.com/evanhu1" target="_blank" class=" btn-primary">GitHub</a> 
+                        <a href="https://www.linkedin.com/in/evanhu1/" target="_blank" class=" btn-primary">LinkedIn</a> 
                     </div>
                 </div>
-                
             </div>
-            
-            
-            
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-body" style="margin-top: 1rem;">
+                            <ul>
+                                <li class="text-muted">Created a Natural Language Processing pipeline to automate the processing of incoming interview questions using Keras as well as DistilBERT representations for semantic similarity.</li>
+                                <li class="text-muted">Using Python and MySQL to develop a subscription predictive model</li> 
+                            </ul>
+                        </div>
+                        <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="card_row">
+                <div class="card card_current">
+                    <h4 class="card-title text-muted">Interview Query</h5>
+                    <h6 class="card-title">Data Science/NLP Intern</h5>
+                    <p class="card-subtitle mb-2 text-muted">Aug 2020 – Present</p>
+                    <button type="button" class="btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        More
+                    </button>
+                </div>
+            </div>
+            <div id="card_row">
+                <div class="card">
+                    <h5 class="card-title">HoverCam</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                </div>
+                <div class="card">
+                    <h5 class="card-title">Card title</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                </div>
+            </div>
+            <div id="card_row">
+
+            </div>
         </div>
-        <br>
         <!-- <div class="container">
             <div class="row">
                 <div class="col-lg-6 box">
@@ -57,8 +90,9 @@
             </div>
         </div> -->
         
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        
     </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </html>
