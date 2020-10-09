@@ -23,75 +23,102 @@
                         <a href="assets/Evan Hu Resume.pdf" target="_blank" class=" btn-primary">Resume</a>
                         <a href="https://github.com/evanhu1" target="_blank" class=" btn-primary">GitHub</a> 
                         <a href="https://www.linkedin.com/in/evanhu1/" target="_blank" class=" btn-primary">LinkedIn</a> 
-                    </div>
-                </div>
-            </div>
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered">
-                    <div class="modal-content">
-                        <div class="modal-body" style="margin-top: 1rem;">
-                            <ul>
-                                <li class="text-muted">Created a Natural Language Processing pipeline to automate the processing of incoming interview questions using Keras as well as DistilBERT representations for semantic similarity.</li>
-                                <li class="text-muted">Using Python and MySQL to develop a subscription predictive model</li> 
-                            </ul>
-                        </div>
-                        <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
+                        <button id="theme" type="button" class="btn-primary">Theme</button>
                     </div>
                 </div>
             </div>
             <div id="card_row">
-                <div class="card card_current">
+                <div class="card_current card">
                     <h4 class="card-title text-muted">Interview Query</h5>
+                    <img src="assets/IQ-logo.png" style="width: 20%; margin: 0.5rem 0">
                     <h6 class="card-title">Data Science/NLP Intern</h5>
-                    <p class="card-subtitle mb-2 text-muted">Aug 2020 – Present</p>
-                    <button type="button" class="btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    <p class="card-subtitle text-muted">Aug 2020 – Present</p>
+                    <button type="button" class="more btn-primary" data-toggle="modal" data-target="#interviewquery">
                         More
                     </button>
                 </div>
             </div>
             <div id="card_row">
                 <div class="card">
-                    <h5 class="card-title">HoverCam</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <h4 class="card-title text-muted">UCSD</h5>
+                        <img src="assets/UCSD_logo.png" class="wide" style="width: 60%; margin: 0.5rem 0 1rem 0; filter: opacity(75%)">
+                    <h5 class="card-title">Research Assistant</h5>
+                    <p class="card-subtitle text-muted">Sep 2019 - Aug 2019</p>
+                    <button type="button" class="more btn-primary" data-toggle="modal" data-target="#ucsd">
+                        More
+                    </button>
                 </div>
                 <div class="card">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <h4 class="card-title text-muted">HoverCam</h5>
+                        <img src="assets/HoverCam.png" class="wide" style="width: 60%; margin: 0.5rem 0 1rem 0; filter: opacity(75%)">
+                    <h5 class="card-title">Software Engineer Intern</h5>
+                    <p class="card-subtitle text-muted">May 2019 - Jul 2019</p>
+                    <button type="button" class="more btn-primary" data-toggle="modal" data-target="#hovercam">
+                        More
+                    </button>
                 </div>
             </div>
             <div id="card_row">
-
+                <div class="card proj_card">
+                    <h4 class="card-title text-muted">Research</h5>
+                    <h6 class="card-title">Architectural Resilience to Foreground-and-Background Adversarial Noise</h5>
+                    <p class="card-subtitle text-muted proj_p">In this work, we propose distinct model-agnostic benchmark perturbations of images in order to investigate the resilience and robustness of different network architectures. Resul. Our findings provide direction for future understanding of residual connections and depth on network robustness.</p>
+                    <a href="https://arxiv.org/abs/2003.10045" target="_blank" class="more btn-primary">See Paper</a>
+                </div>
+                <div class="card proj_card">
+                    <h4 class="card-title text-muted">MovementSpace</h5>
+                    <p class="card-subtitle text-muted proj_p">A concept website meant to be a platform for the inspiration and creation of social movements. Built using PostgreSQL, Ruby on Rails, and ReactJS for my first hackathon.</p>
+                    <a href="https://www.movementspace.tech" target="_blank" class="more btn-primary">Link</a>
+                </div>
             </div>
         </div>
-        <!-- <div class="container">
-            <div class="row">
-                <div class="col-lg-6 box">
-                    <div class="text">hello world</div>
-                    <div class="background"></div>
-                    
-                </div>
-                <div class="col-lg-6 box">
-                    <div class="text">hello world</div>
-                    <div class="background"></div>
-                </div>
-            </div> <br>
-            <div class="row">
-                <div class="col-lg-6 box">
-                    <div class="text">hello world</div>
-                    <div class="background"></div>
-                    
-                </div>
-                <div class="col-lg-6 box">
-                    <div class="text">hello world</div>
-                    <div class="background"></div>
+        <div class="modal fade" id="interviewquery" tabindex="-1" aria-labelledby="iqlabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body" style="margin-top: 1rem;">
+                        <ul>
+                            <li class="text-muted">Created a Natural Language Processing pipeline to automate the processing of incoming interview questions using Keras as well as DistilBERT representations for semantic similarity.</li>
+                            <li class="text-muted">Using Python and MySQL to develop a subscription predictive model</li> 
+                        </ul>
+                    </div>
+                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
                 </div>
             </div>
-        </div> -->
-        
-        
+        </div>
+        <div class="modal fade" id="ucsd" tabindex="-1" aria-labelledby="ucsdlabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body" style="margin-top: 1rem;">
+                        <ul>
+                            <li class="text-muted">Researched and developed neural networks with Keras utilizing metabolomics to recognize subtypes of lung cancer.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="hovercam" tabindex="-1" aria-labelledby="hovercamlabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body" style="margin-top: 1rem;">
+                        <ul>
+                            <li class="text-muted">Full stack development of a web app that aids communication between HoverCam and its producers.</li>
+                            <li class="text-muted">Used MongoDB and Node.js to create a back-end database on an Amazon EC2 instance.</li> 
+                            <li class="text-muted">Designed front-end interfaces with HTML, CSS and AngularJS.</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
+    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
