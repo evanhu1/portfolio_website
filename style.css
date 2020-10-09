@@ -54,9 +54,6 @@
     flex-wrap: wrap;
 }
 .btn-primary {
-    flex-grow: 1;
-    max-height: 1.5rem;
-    align-content: center;
     line-height: 2rem;
     border-radius: 0.25rem;
     font-size: 1rem;
@@ -69,8 +66,9 @@
     padding: 0 1rem;
     margin: 0.5rem 0.5rem;
 }
-.buttons a, button {
+.buttons a, .buttons button {
     max-height: 2rem!important;
+    flex-grow: 1;
 }
 .more {
     font-size: 0.9rem;
@@ -140,11 +138,12 @@ html, body {
     width: 100%;
 }
 body {
+    
     padding-top: 1px;
     /* background-repeat: no-repeat; */
     background-attachment: fixed;
     /* background-image: url("assets/Stripanglify-11.1s-1084px.svg"); */
-    background-image: linear-gradient(-135deg, #a993cc, #91b3e0);
+    background-image: linear-gradient(-115deg, #a993cc, #91b3e0);
     /* background-color: #CED9E4; */
 }  
 /*  #acb6ff52, #fd98ca62, #d3a66646 */
@@ -161,6 +160,9 @@ body {
     }
     .card {
         width: 100%;
+    }
+    #iq {
+        width: 25%!important;
     }
 }
 @media only screen and (max-width: 600px) {
