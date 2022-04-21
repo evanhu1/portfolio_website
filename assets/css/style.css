@@ -4,10 +4,10 @@
 :root {
   scroll-behavior: smooth;
   /* --header-color: #e6aaaa; */
-  --body-color: #eaf8f8;
-  --body-color1: #efffff;
+  --body-color: #d9ebeb;
+  --body-color1: #e8f7f7;
   /* --navbar-color: #b17f8c;      */
-  --nav-text-color: #88b5bb;
+  --nav-text-color: #7dabb0;
   --card-color: #f9fffe;
   --container-color: #ffe6e6;
   --title-color: #477890;
@@ -113,7 +113,7 @@ h2 {
   transition: 0.3s;
 }
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #a3cba8d1;
+  color: #749d7ad1;
 }
 
 .footer {
