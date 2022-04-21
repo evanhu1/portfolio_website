@@ -4,11 +4,11 @@
 :root {
   scroll-behavior: smooth;
   /* --header-color: #e6aaaa; */
-  --body-color: #d9ebeb;
+  --body-color: #cfe7e7;
   --body-color1: #e8f7f7;
   /* --navbar-color: #b17f8c;      */
   --nav-text-color: #7dabb0;
-  --card-color: #f9fffe;
+  --card-color: #f6fcfc;
   --container-color: #ffe6e6;
   --title-color: #477890;
   --button-hover-color: #a2d7da;
