@@ -1,160 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content = "width=device-width, initial-scale=1.0">
-        <title>Evan Hu</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="assets/eh.png">
-    </head>
-    <body>
-        <div class="container">
-            <div id="row">
-                <div id="column1_1">
-                    <img class="head-img" src="assets/head.jpg" alt="">
-                </div>
-                <div id="column1_2">
-                    <h1 class="title">Evan Hu</h1>
-                    <div class="buttons" style="display: flex;">
-                        <a href="https://docs.google.com/document/d/1BeETlLNPKBS98UL6V2_AjMVsjL1ndlwLK1tvW6Cnxrk/export?format=pdf" target="_blank" class=" btn-primary">Resume</a>
-                        <a href="https://github.com/evanhu1" target="_blank" class=" btn-primary">GitHub</a>
-                        <a href="https://www.linkedin.com/in/evanhu1/" target="_blank" class=" btn-primary">LinkedIn</a> 
-                        <button type="button" class="btn-primary" data-toggle="modal" data-target="#about">About Me</button>
-                        <a href="photography.html" class=" btn-primary">Photography</a>
-                    </div>
-                </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+  <title>Evan Hu</title>
+  <!-- Favicons -->
+  <link href="assets/img/eh.png" rel="icon">
+  
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style2.css">
+</head>
+
+<body>
+  <div id="row" class="face_title">
+    <img src="assets/img/head_shot-2.jpg" class="head-img">
+    <h2>Evan Hu</h2>
+  </div>
+  <div class="container">
+    <hr>
+    <header class="header">
+      <nav id="navbar" class="navbar">
+        <a class="active" href="#about" target="_blank">Experience</a>
+        <a class="" href="https://docs.google.com/document/d/1BeETlLNPKBS98UL6V2_AjMVsjL1ndlwLK1tvW6Cnxrk/export?format=pdf" target="_blank" class=" btn-primary">Resume</a>
+        <a class="" href="https://github.com/evanhu1" target="_blank">Github</a>
+        <a class="" href="https://www.linkedin.com/in/evanhu1/" target="_blank">LinkedIn</a>
+        <a class="" href="photography.html">Photography</a>
+      </nav>
+    </header>
+    <hr>
+    <div class="everything">
+      
+      <div id="card_row">
+        <div id="card_column">
+          <div class="card">
+            <h4 class="card-title ">Flexport</h4>
+            <img src="assets/img/flexport.png" id="iq" style="width: 40%; margin: 0.5rem 0; filter:contrast(110%)">
+            <h5 class="card-title">SWE Intern</h5>
+            <p class="card-subtitle">May 2022 – July 2022</p>
+            <!-- <button type="button" class="more btn-primary" data-toggle="modal" data-target="#flexport">
+              More
+            </button> -->
+          </div>
+          <div class="card">
+            <h4 class="card-title ">UCSD</h4>
+            <img src="assets/img/UCSD_logo.png" class="wide" style="width: 40%; margin: 0.5rem 0 1rem 0; filter: opacity(85%)">
+            <h5 class="card-title">Research Assistant</h5>
+            <p class="card-subtitle">Aug 2019 - Sep 2019</p>
+            <button type="button" class="more btn-primary" data-toggle="modal" data-target="#ucsd">
+              More
+            </button>
+          </div>
+          <div class="card proj_card">
+            <h4 class="card-title ">Chess Positional Trainer</h4>
+            <p class="card-subtitle proj_p">A training tool to help chess players test their positional understanding.</p>
+            <div style="display: flex;">
+              <a href="https://evanhu1.github.io/chess-positional-trainer" target="_blank" class="more btn-primary">Link</a>
+              <a href="https://github.com/evanhu1/chess-positional-trainer" target="_blank" class="more btn-primary">Code</a>
             </div>
-            <div id="card_row">
-                <div class="card_current card">
-                    <h4 class="card-title ">Interview Query</h5>
-                    <img src="assets/IQ-logo.png" id="iq" style="width: 20%; margin: 0.5rem 0; filter:contrast(110%)">
-                    <h5 class="card-title">Data Science/NLP Intern</h5>
-                    <p class="card-subtitle text-muted">Aug 2020 – Present</p>
-                    <button type="button" class="more btn-primary" data-toggle="modal" data-target="#interviewquery">
-                        More
-                    </button>
-                </div>
-            </div>
-            <div id="card_row">
-                <div class="card">
-                    <h4 class="card-title ">UCSD</h4>
-                        <img src="assets/UCSD_logo.png" class="wide" style="width: 60%; margin: 0.5rem 0 1rem 0; filter: opacity(85%)">
-                    <h5 class="card-title">Research Assistant</h5>
-                    <p class="card-subtitle">Aug 2019 - Sep 2019</p>
-                    <button type="button" class="more btn-primary" data-toggle="modal" data-target="#ucsd">
-                        More
-                    </button>
-                </div>
-                <div class="card">
-                    <h4 class="card-title ">HoverCam</h4>
-                        <img src="assets/HoverCam.png" class="wide" style="width: 60%; margin: 0.5rem 0 1rem 0; filter: opacity(90%)">
-                    <h5 class="card-title">Software Engineer Intern</h5>
-                    <p class="card-subtitle">May 2019 - Jul 2019</p>
-                    <button type="button" class="more btn-primary" data-toggle="modal" data-target="#hovercam">
-                        More
-                    </button>
-                </div>
-            </div>
-            <div id="card_row">
-                <div class="card proj_card">
-                    <h4 class="card-title ">Research</h4>
-                    <p class="card-subtitle proj_p">In this work, we propose distinct model-agnostic benchmark perturbations of images in order to investigate the resilience and robustness of different network architectures. Our findings provide direction for future understanding of residual connections and depth on network robustness.</p>
-                    <a href="https://arxiv.org/abs/2003.10045" target="_blank" class="more btn-primary">arXiv</a>
-                </div>
-                <div class="card proj_card">
-                    <h4 class="card-title ">MovementSpace</h5>
-                    <p class="card-subtitle proj_p">A concept website meant to be a platform for the inspiration and creation of social movements. Built using PostgreSQL, Ruby on Rails, and ReactJS for my first hackathon.</p>
-                    <div style="display: flex;">
-                        <a href="https://movementspace.herokuapp.com/" target="_blank" class="more btn-primary">Link</a>
-                        <a href="https://github.com/evanhu1/MovementSpace" target="_blank" class="more btn-primary">Code</a>
-                    </div>
-                    
-                </div>
-            </div>
-            <div id="card_row">
-                <div class="card proj_card">
-                    <h4 class="card-title ">Chess Positional Trainer</h5>
-                    <p class="card-subtitle proj_p">A training tool to help chess players test their positional understanding.</p>
-                    <div style="display: flex;">
-                        <a href="https://evanhu1.github.io/chess-positional-trainer" target="_blank" class="more btn-primary">Link</a>
-                        <a href="https://github.com/evanhu1/chess-positional-trainer" target="_blank" class="more btn-primary">Code</a>
-                    </div>
-                </div>
-            </div>
+          </div>
+          <div class="card proj_card">
+            <h4 class="card-title ">Research</h4>
+            <p class="card-subtitle proj_p">In this work, we propose distinct model-agnostic benchmark perturbations of images in order to investigate the resilience and robustness of different network architectures. Our findings provide direction for future understanding of residual connections and depth on network robustness.</p>
+            <a href="https://arxiv.org/abs/2003.10045" target="_blank" class="more btn-primary">arXiv</a>
+          </div>
         </div>
-        <div class="modal fade" id="interviewquery" tabindex="-1" aria-labelledby="iqlabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body" style="margin-top: 1rem;">
-                        <ul>
-                            <li class="text-muted">Created a Natural Language Processing pipeline to automate the processing of incoming interview questions using Keras as well as DistilBERT representations for semantic similarity.</li>
-                            <li class="text-muted">Using Python and MySQL to develop a subscription predictive model</li> 
-                        </ul>
-                    </div>
-                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
+        
+        <div id="card_column">
+          <br>
+          <br>
+          <div class="card">
+            <h4 class="card-title ">Interview Query</h4>
+            <img src="assets/img/IQ-logo.png" id="iq" style="width: 15%; margin: 0.5rem 0; filter:contrast(110%)">
+            <h5 class="card-title">Data Science/NLP Intern</h5>
+            <p class="card-subtitle">Aug 2020 – Jan 2021</p>
+            <button type="button" class="more btn-primary" data-toggle="modal" data-target="#interviewquery">
+              More
+            </button>
+          </div>
+          <div class="card">
+            <h4 class="card-title ">HoverCam</h4>
+            <img src="assets/img/HoverCam.png" class="wide" style="width: 40%; margin: 0.5rem 0 1rem 0; filter: opacity(90%)">
+            <h5 class="card-title">Software Engineer Intern</h5>
+            <p class="card-subtitle">May 2019 - Jul 2019</p>
+            <button type="button" class="more btn-primary" data-toggle="modal" data-target="#hovercam">
+              More
+            </button>
+          </div>
+          
+          <div class="card proj_card">
+            <h4 class="card-title ">MovementSpace</h4>
+            <p class="card-subtitle proj_p">A concept website meant to be a platform for the inspiration and creation of social movements. Built using PostgreSQL, Ruby on Rails, and ReactJS for my first hackathon.</p>
+            <div style="display: flex;">
+              <a href="https://movementspace.herokuapp.com/" target="_blank" class="more btn-primary">Link</a>
+              <a href="https://github.com/evanhu1/MovementSpace" target="_blank" class="more btn-primary">Code</a>
             </div>
+          </div>
         </div>
-        <div class="modal fade" id="ucsd" tabindex="-1" aria-labelledby="ucsdlabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body" style="margin-top: 1rem;">
-                        <ul>
-                            <li class="text-muted">Researched and developed neural networks with Keras utilizing metabolomics to recognize subtypes of lung cancer.</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="modal fade" id="flexport" tabindex="-1" aria-labelledby="iqlabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body" style="margin-top: 1rem;">
+          <ul>
+            <li class="text-muted">Created a Natural Language Processing pipeline to automate the processing of incoming interview questions using Keras as well as DistilBERT representations for semantic similarity.</li>
+            <li class="text-muted">Using Python and MySQL to develop a subscription predictive model</li> 
+          </ul>
         </div>
-        <div class="modal fade" id="hovercam" tabindex="-1" aria-labelledby="hovercamlabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body" style="margin-top: 1rem;">
-                        <ul>
-                            <li class="text-muted">Full stack development of a web app that aids communication between HoverCam and its producers.</li>
-                            <li class="text-muted">Used MongoDB and Express.js to create a back-end database on an Amazon EC2 instance.</li> 
-                            <li class="text-muted">Designed front-end interfaces with HTML, CSS and AngularJS.</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+        <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
         </div>
-        <div class="modal fade" id="about" tabindex="-1" aria-labelledby="hovercamlabel" aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                    <div class="modal-body" style="margin-top: 1rem;">
-                        <h6 class="text-muted" style="font-weight: 400;">Hi! I'm a student at UC Berkeley studying Electrical Engineering and Computer Science. 
-                            I'm interested in computer vision, NLP, reinforcement learning and looking to explore other areas as well. 
-                            In my free time, I love to play basketball and table tennis, as well as piano and guitar. I also enjoy playing chess and various video games.
-                        </h6>
-                        <h6 class="text-muted">Some fun facts:</h6>
-                        <ul>
-                            <li class="text-muted">I was born in Canada.</li> 
-                            <li class="text-muted">I sneeze at the sun (photic sneeze reflex).</li>
-                            <li class="text-muted">I've read the Harry Potter series more than 6 times!</li>
-                            <li class="text-muted">Other favorite books: East of Eden, The Brothers Karamazov, Lord of the Rings, and Anne of Green Gables.</li>
-                        </ul>
-                    </div>
-                    <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    </div>
-                </div>
-            </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="interviewquery" tabindex="-1" aria-labelledby="iqlabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body" style="margin-top: 1rem;">
+          <ul>
+            <li class="text-muted">Created a Natural Language Processing pipeline to automate the processing of incoming interview questions using Keras as well as DistilBERT representations for semantic similarity.</li>
+            <li class="text-muted">Using Python and MySQL to develop a subscription predictive model</li> 
+          </ul>
         </div>
-    </body>
-    <script src="script.js"></script>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+        <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="ucsd" tabindex="-1" aria-labelledby="ucsdlabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body" style="margin-top: 1rem;">
+          <ul>
+            <li class="text-muted">Researched and developed neural networks with Keras utilizing metabolomics to recognize subtypes of lung cancer.</li>
+          </ul>
+        </div>
+        <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="hovercam" tabindex="-1" aria-labelledby="hovercamlabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-body" style="margin-top: 1rem;">
+          <ul>
+            <li class="text-muted">Full stack development of a web app that aids communication between HoverCam and its producers.</li>
+            <li class="text-muted">Used MongoDB and Express.js to create a back-end database on an Amazon EC2 instance.</li> 
+            <li class="text-muted">Designed front-end interfaces with HTML, CSS and AngularJS.</li>
+          </ul>
+        </div>
+        <div class="modal-footer" style="border: none; margin: -1rem auto 0rem;">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<footer id="footer" class="footer"></footer>
+
+<!-- Vendor JS Files -->
+<script src="assets/vendor/purecounter/purecounter.js"></script>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+<script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+<script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+<script src="assets/vendor/php-email-form/validate.js"></script>
+
+<!-- Template Main JS File -->
+<script src="assets/js/main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
 </html>
